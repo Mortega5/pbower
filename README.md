@@ -1,6 +1,6 @@
 # Usage:
-```bash
-  pbower [<command>] [<options>]   Install versions of the components in the correct folder
+```{r, engine='bash', code_block_name}
+  $ pbower [<command>] [<options>]   Install versions of the components in the correct folder
 ```
 
 ## Commands:
@@ -10,13 +10,13 @@
 
     --save                  Save as bower dependencie
 ## Example:
-  ```bash
-    bower install  googletimeline-plus#v0.9-stable
+  ```{r, engine='bash', code_block_name}
+    $ bower install  googletimeline-plus#v0.9-stable
   ```
   Package can be a file with multiple components
 
-  ```
-    bower install versions.txt
+  ```{r, engine='bash', code_block_name}
+    $ bower install versions.txt
   ``` 
   versions.txt
   ```txt
